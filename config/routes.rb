@@ -1,4 +1,5 @@
 Rose::Application.routes.draw do
+  get "landings/index"
   resources :listings do
   #->Prelang (voting/acts_as_votable)
   member do
